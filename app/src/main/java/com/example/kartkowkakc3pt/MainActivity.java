@@ -1,5 +1,6 @@
 package com.example.kartkowkakc3pt;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -82,6 +83,21 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View view) {
                         int iRandNum = rand.nextInt(1, 11);
                         randNum.setText(String.valueOf(iRandNum));
+                        if (iNum1[0] == iRandNum) {
+                            num1.setTextColor(Color.GREEN);
+                        } else {
+                            num1.setTextColor(Color.RED);
+                        }
+                        if (iNum2[0] == iRandNum) {
+                            num2.setTextColor(Color.GREEN);
+                        } else {
+                            num2.setTextColor(Color.RED);
+                        }
+                        if (iNum3[0] == iRandNum) {
+                            num3.setTextColor(Color.GREEN);
+                        } else {
+                            num3.setTextColor(Color.RED);
+                        }
                     }
                 }
         );
