@@ -10,6 +10,7 @@
     android:background="#fff999">
 
     <TextView
+        android:id="@+id/randNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
@@ -18,7 +19,7 @@
         android:layout_marginTop="200px"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/losujBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="200dp"
@@ -33,7 +34,7 @@
         android:layout_marginTop="50px">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/minusBt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -41,7 +42,7 @@
             android:text="-" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/num1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -51,7 +52,7 @@
             android:text="1" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/plusBt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -67,7 +68,7 @@
         android:layout_marginTop="50px">
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/minusBt2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -75,7 +76,7 @@
             android:text="-" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/num2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -85,7 +86,7 @@
             android:text="1" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/plusBt2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -101,7 +102,7 @@
         android:layout_marginTop="50px">
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/minusBt3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -109,7 +110,7 @@
             android:text="-" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/num3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -119,7 +120,7 @@
             android:text="1" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/plusBt3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
