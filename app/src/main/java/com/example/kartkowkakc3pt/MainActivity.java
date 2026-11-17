@@ -47,8 +47,10 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        iNum1[0]++;
-                        num1.setText(String.valueOf(iNum1[0]));
+                        if (iNum1[0] != 10) {
+                            iNum1[0]++;
+                            num1.setText(String.valueOf(iNum1[0]));
+                        }
                     }
                 }
         );
@@ -56,8 +58,10 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        iNum2[0]++;
-                        num2.setText(String.valueOf(iNum2[0]));
+                        if (iNum2[0] != 10) {
+                            iNum2[0]++;
+                            num2.setText(String.valueOf(iNum2[0]));
+                        }
                     }
                 }
         );
@@ -65,8 +69,10 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        iNum3[0]++;
-                        num3.setText(String.valueOf(iNum3[0]));
+                        if (iNum3[0] != 10) {
+                            iNum3[0]++;
+                            num3.setText(String.valueOf(iNum3[0]));
+                        }
                     }
                 }
         );
@@ -74,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        int iRandNum = rand.nextInt(1, 10);
+                        int iRandNum = rand.nextInt(1, 11);
                         randNum.setText(String.valueOf(iRandNum));
                     }
                 }
@@ -83,8 +89,10 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        iNum1[0]--;
-                        num1.setText(String.valueOf(iNum1[0]));
+                        if (iNum1[0] != 1) {
+                            iNum1[0]--;
+                            num1.setText(String.valueOf(iNum1[0]));
+                        }
                     }
                 }
         );
@@ -92,8 +100,10 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        iNum2[0]--;
-                        num2.setText(String.valueOf(iNum2[0]));
+                        if (iNum2[0] != 1) {
+                            iNum2[0]--;
+                            num2.setText(String.valueOf(iNum2[0]));
+                        }
                     }
                 }
         );
@@ -101,8 +111,10 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        iNum3[0]--;
-                        num3.setText(String.valueOf(iNum3[0]));
+                        if (iNum3[0] != 1) {
+                            iNum3[0]--;
+                            num3.setText(String.valueOf(iNum3[0]));
+                        }
                     }
                 }
         );
